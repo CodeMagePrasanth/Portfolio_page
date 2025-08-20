@@ -1,0 +1,15 @@
+nav{
+    background-color: green;
+    text-align: right;
+}
+a{ 
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 16pt;
+}
+h2{
+    text-align: left;
+    padding: 10px;
+
+}
