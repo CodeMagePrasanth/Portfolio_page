@@ -1,15 +1,44 @@
-nav{
-    background-color: green;
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar{
+    width: 100%;
+    background-color:cornsilk;
+  
+}
+
+.navbar h2 {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+}
+.navbar a{ 
+    
+    color: black;
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 10px;
+    vertical-align: bottom;
     text-align: right;
 }
-a{ 
-    text-decoration: none;
+.home{
+    width: 100%;
+    height: 100vh;
     color: white;
-    padding: 10px;
-    font-size: 16pt;
+    background-color:blueviolet;
+    border-radius: 1em;
+    padding:1em;
 }
-h2{
-    text-align: left;
-    padding: 10px;
-
+@media (max-width: 600px) {
+    .navbar h2 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
 }
