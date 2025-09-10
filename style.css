@@ -44,14 +44,26 @@
     border-radius: 50%;
     margin-top: 1em;
 }
-.about{
-    /* display: flex; */
+.project{
+    display: flex;
     text-align: center;
     height: 80vh;
     background-color:blueviolet;
     border-radius: 1em;
     padding:1em;
     margin-top:0.5em;
+}
+.project1, .project2, .project3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: white;
+
 }
 .contact{
     display: flex;
